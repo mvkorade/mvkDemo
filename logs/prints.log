@@ -1,0 +1,4 @@
+23:06:22.096 [TestNG-tests-4] INFO  Resources.base - Varified title successfully
+23:06:25.351 [TestNG-tests-2] INFO  Resources.base - Login Page is successfully validated for restricted and Non Restricted User
+23:06:36.800 [TestNG-tests-2] INFO  Resources.base - Navigated to URL
+23:06:38.863 [TestNG-tests-2] INFO  Resources.base - Login Page is successfully validated for restricted and Non Restricted User

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests">
+<listeners>
+<listener class-name = "SandipFoundation.EndtoendPRoject.Listeners"/>
+</listeners>
+
+  <test name="NavigationTest" >
+    <classes>
+      <class name="SandipFoundation.EndtoendPRoject.validateNavigationBar"/>
+      </classes>
+      </test>
+      <test name="HomepageTest">
+      <classes>
+      <class name="SandipFoundation.EndtoendPRoject.Homepage"/>
+      </classes>
+      </test>
+      <test name="AppTestTest">
+      <classes>
+      <class name="SandipFoundation.EndtoendPRoject.AppTest"/>
+      </classes>
+      </test>
+      <test name = "ValidateTest">
+      <classes>
+      <class name="SandipFoundation.EndtoendPRoject.validateTitle"/>
+    </classes>
+      </test>
+    
+  </suite> <!-- Suite -->

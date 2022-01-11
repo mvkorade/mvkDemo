@@ -1,0 +1,6 @@
+22:16:43.208 [TestNG-tests-2] INFO  Resources.base - Driver is initialized
+22:18:47.443 [TestNG-tests-2] INFO  Resources.base - Navigated to URL
+22:18:51.583 [TestNG-tests-4] INFO  Resources.base - Varified title successfully
+22:19:03.130 [TestNG-tests-2] INFO  Resources.base - Login Page is successfully validated for restricted and Non Restricted User
+22:19:04.435 [TestNG-tests-1] INFO  Resources.base - Navigetion Bar is displayed
+22:19:17.715 [TestNG-tests-2] INFO  Resources.base - Navigated to URL

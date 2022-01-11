@@ -1,0 +1,7 @@
+22:52:50.672 [main] INFO  Resources.base - Varified title successfully
+22:59:10.842 [main] INFO  Resources.base - Varified title successfully
+23:02:19.881 [main] INFO  Resources.base - Varified title successfully
+23:04:35.844 [TestNG-tests-2] INFO  Resources.base - Driver is initialized
+23:06:10.404 [TestNG-tests-1] INFO  Resources.base - Navigetion Bar is displayed
+23:06:10.591 [TestNG-tests-2] INFO  Resources.base - Navigated to URL
+23:06:22.039 [TestNG-tests-4] INFO  Resources.base - Varified header successfully

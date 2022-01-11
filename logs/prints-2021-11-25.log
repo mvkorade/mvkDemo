@@ -1,0 +1,6 @@
+21:43:12.478 [TestNG-tests-2] INFO  Resources.base - Login Page is successfully validated for restricted and Non Restricted User
+21:43:22.049 [TestNG-tests-2] INFO  Resources.base - Navigated to URL
+21:43:23.705 [TestNG-tests-2] INFO  Resources.base - Login Page is successfully validated for restricted and Non Restricted User
+21:45:36.427 [TestNG-tests-2] INFO  Resources.base - Driver is initialized
+21:47:01.687 [TestNG-tests-2] INFO  Resources.base - Navigated to URL
+21:47:02.398 [TestNG-tests-4] INFO  Resources.base - Varified title successfully

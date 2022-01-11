@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 127.799 s <<< FAILURE! - in TestSuite
+SandipFoundation.EndtoendPRoject.validateTitle.validateHeader  Time elapsed: 0.78 s  <<< FAILURE!
+java.lang.NullPointerException
+	at SandipFoundation.EndtoendPRoject.validateTitle.validateHeader(validateTitle.java:40)
+

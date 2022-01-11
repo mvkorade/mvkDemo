@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="SandipFoundation.EndtoendPRoject.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ValidateTest(failed)" parallel="tests">
+    <classes>
+      <class name="SandipFoundation.EndtoendPRoject.validateTitle">
+        <methods>
+          <include name="openURL"/>
+          <include name="closeBrowser"/>
+          <include name="validateHeader"/>
+        </methods>
+      </class> <!-- SandipFoundation.EndtoendPRoject.validateTitle -->
+    </classes>
+  </test> <!-- ValidateTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

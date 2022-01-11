@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="127130" started-at="2021-11-29T17:34:31Z" finished-at="2021-11-29T17:36:39Z">
+    <groups>
+    </groups>
+    <test name="AppTestTest" duration-ms="8" started-at="2021-11-29T17:34:31Z" finished-at="2021-11-29T17:34:31Z">
+    </test> <!-- AppTestTest -->
+    <test name="NavigationTest" duration-ms="98913" started-at="2021-11-29T17:34:31Z" finished-at="2021-11-29T17:36:10Z">
+      <class name="SandipFoundation.EndtoendPRoject.validateNavigationBar">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:SandipFoundation.EndtoendPRoject.validateNavigationBar@451001e5]" name="openURL" is-config="true" duration-ms="98371" started-at="2021-11-29T17:34:31Z" finished-at="2021-11-29T17:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="basepageNAvBarStatus()[pri:0, instance:SandipFoundation.EndtoendPRoject.validateNavigationBar@451001e5]" name="basepageNAvBarStatus" duration-ms="144" started-at="2021-11-29T17:36:10Z" finished-at="2021-11-29T17:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNAvBarStatus -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SandipFoundation.EndtoendPRoject.validateNavigationBar@451001e5]" name="closeBrowser" is-config="true" duration-ms="347" started-at="2021-11-29T17:36:10Z" finished-at="2021-11-29T17:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SandipFoundation.EndtoendPRoject.validateNavigationBar -->
+    </test> <!-- NavigationTest -->
+    <test name="ValidateTest" duration-ms="110507" started-at="2021-11-29T17:34:31Z" finished-at="2021-11-29T17:36:22Z">
+      <class name="SandipFoundation.EndtoendPRoject.validateTitle">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:SandipFoundation.EndtoendPRoject.validateTitle@6c4980d3]" name="openURL" is-config="true" duration-ms="109965" started-at="2021-11-29T17:34:31Z" finished-at="2021-11-29T17:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="validateHeader()[pri:0, instance:SandipFoundation.EndtoendPRoject.validateTitle@6c4980d3]" name="validateHeader" duration-ms="188" started-at="2021-11-29T17:36:21Z" finished-at="2021-11-29T17:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="validateTitleonpage()[pri:0, instance:SandipFoundation.EndtoendPRoject.validateTitle@6c4980d3]" name="validateTitleonpage" duration-ms="62" started-at="2021-11-29T17:36:22Z" finished-at="2021-11-29T17:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleonpage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SandipFoundation.EndtoendPRoject.validateTitle@6c4980d3]" name="closeBrowser" is-config="true" duration-ms="279" started-at="2021-11-29T17:36:22Z" finished-at="2021-11-29T17:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SandipFoundation.EndtoendPRoject.validateTitle -->
+    </test> <!-- ValidateTest -->
+    <test name="HomepageTest" duration-ms="127130" started-at="2021-11-29T17:34:31Z" finished-at="2021-11-29T17:36:39Z">
+      <class name="SandipFoundation.EndtoendPRoject.Homepage">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:SandipFoundation.EndtoendPRoject.Homepage@304bb45b]" name="openURL" is-config="true" duration-ms="3967" started-at="2021-11-29T17:34:31Z" finished-at="2021-11-29T17:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:SandipFoundation.EndtoendPRoject.Homepage@304bb45b]" name="basepageNavigation" duration-ms="109426" started-at="2021-11-29T17:34:35Z" data-provider="getData" finished-at="2021-11-29T17:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestircted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method status="PASS" signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:SandipFoundation.EndtoendPRoject.Homepage@304bb45b]" name="basepageNavigation" duration-ms="13509" started-at="2021-11-29T17:36:25Z" data-provider="getData" finished-at="2021-11-29T17:36:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restircted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234534]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SandipFoundation.EndtoendPRoject.Homepage@304bb45b]" name="closeBrowser" is-config="true" duration-ms="143" started-at="2021-11-29T17:36:38Z" finished-at="2021-11-29T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SandipFoundation.EndtoendPRoject.Homepage -->
+    </test> <!-- HomepageTest -->
+  </suite> <!-- Suite -->
+</testng-results>
