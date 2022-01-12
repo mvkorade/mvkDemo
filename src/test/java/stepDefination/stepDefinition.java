@@ -24,35 +24,37 @@ public class stepDefinition extends base {
 	@Given("^Navigate to \"([^\"]*)\" site$")
 	public void navigate_to_site(String arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		driver.get(arg1);
+		driver.get(arg1);    // get the website name from the arguments
 	}
 
 	@Given("^click on login link in home page to to land on secure sign in Page$")
 	public void click_on_login_link_in_home_page_to_to_land_on_secure_sign_in_Page() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		LandingPage l = new LandingPage(driver);
-		l.Login().click();
+		l.Login().click();       //On home page click on the login tab
 	}
 
 	
 	 @When("^User enters (.+) and (.+) and logs in$")
 	    public void user_enters_and_and_logs_in(String username, String password) throws Throwable {
 		 LoginPage lp = new LoginPage(driver);
-			lp.email().sendKeys(username);
-			lp.passwd().sendKeys(password);
-			lp.loginButton().click();
+			lp.email().sendKeys(username);  
+			lp.passwd().sendKeys(password);   // Enter Username and Password coming from the table
+			lp.loginButton().click();     //click on login button
 	    }
 
 	@Then("^verify that user has successfully logged in$")
 	public void verify_that_user_has_successfully_logged_in() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	   PortalHomePage p = new PortalHomePage(driver);
-	   Assert.assertTrue(p.searchBox().isDisplayed());
+	   Assert.assertTrue(p.searchBox().isDisplayed());   // asserting whether the login successful or not
+	   
 	}
 	
 	 @And("^close the broswer$")
 	    public void close_the_broswer() throws Throwable {
-	      driver.quit();
+	      driver.quit();   //browser will be closed
+	   
 	    }
 
 
