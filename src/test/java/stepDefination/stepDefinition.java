@@ -19,12 +19,14 @@ public class stepDefinition extends base {
 	public void initialize_the_browser() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		driver = inititalizeBrowser();
+		
 	}
 
 	@Given("^Navigate to \"([^\"]*)\" site$")
 	public void navigate_to_site(String arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.get(arg1);    // get the website name from the arguments
+		System.out.println(arg1);
 	}
 
 	@Given("^click on login link in home page to to land on secure sign in Page$")
@@ -32,6 +34,7 @@ public class stepDefinition extends base {
 	    // Write code here that turns the phrase above into concrete actions
 		LandingPage l = new LandingPage(driver);
 		l.Login().click();       //On home page click on the login tab
+		System.out.println("Mahesh");
 	}
 
 	
@@ -41,6 +44,7 @@ public class stepDefinition extends base {
 			lp.email().sendKeys(username);  
 			lp.passwd().sendKeys(password);   // Enter Username and Password coming from the table
 			lp.loginButton().click();     //click on login button
+			System.out.println("Korade");
 	    }
 
 	@Then("^verify that user has successfully logged in$")
